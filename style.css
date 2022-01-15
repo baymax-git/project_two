@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    /* margin: 100px 100px 0 100px; */
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid rgb(236, 236, 236);
+    margin-top: 130px;
+}
+
+header {
+    margin: 100px 0 100px 100px;
+}
+
+/*.................
+ fontawesome css 
+ ..................*/
+
+.fa-chevron-right {
+    margin: 0 0 0 10px
+}
+
+.fa-star {
+    color: orange;
+}
+
+
+/*.................
+ section one css 
+ ..................*/
+
+.section-one {
+    display: flex;
+    gap: 400px;
+}
+
+.left-section {
+    width: 500px;
+    height: 50px;
+    margin-left: 100px
+}
+
+.section-one-header {
+    font-size: 40px;
+}
+
+.section-one-info {
+    font-size: 14px;
+    color: #4b4b4b;
+    margin-top: -20px;
+    font-weight: 450;
+}
+
+.btn {
+    margin-top: 30px;
+    font-size: 13px;
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #E02C6D;
+    border: 0;
+    border-radius: 17px;
+}
+
+/*.................
+ section tow css 
+ ..................*/
+
+.section-two-header {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+}
+
+
+
+.product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 250px;
+    padding: 10px;
+    /* margin: 0 auto; */
+    margin-top: 25px;
+}
+
+.card-image {
+    width: 250px;
+    height: 200px;
+}
+
+.product-header {
+    font-weight: 500;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.rating {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.rating-no {
+    color: rgb(109, 109, 109);
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.product-info {
+    color: rgb(141, 141, 141);
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.see-more {
+    color: #E02C6D;
+    text-align: right;
+    margin-right: 400px;
+    margin-top: 30px;
+}
+
+/* ....................
+footer css
+............. */
+
+footer {
+    display: block;
+    background-color: rgb(7, 7, 27);
+    width: 100%;
+    padding: 30px;
+    margin-top: 150px;
+    color: white;
+    text-align: center;
+    line-height: 1;
+}
+
+.footer-info {
+    line-height: .3;
+    font-size: 13px;
+    color: rgb(173, 173, 173)
+}
+
+.media-icon {
+    display: flex;
+    margin-top: 20px;
+    gap: 25px;
+    justify-content: center;
+}
+
+
+/* ...........................
+media query for mobile device
+..............................  */
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+
+    header {
+        font-size: 5px;
+    }
+
+    .section-one {
+        flex-direction: column;
+        gap: 300px;
+    }
+
+    .left-section {
+        width: 100px;
+        height: 20px;
+        /* margin-left: 100px */
+    }
+    
+    .section-one-header {
+        font-size: 6px;
+    }
+    
+    .section-one-info {
+        font-size: 2px;
+        color: #4b4b4b;
+        /* margin-top: -20px; */
+        font-weight: 450;
+    }
+    
+    .btn {
+        /* margin-top: 30px; */
+        font-size: 13px;
+        width: 150px;
+        height: 35px;
+        color: white;
+        background-color: #E02C6D;
+        border: 0;
+        border-radius: 17px;
+    }
+
+    .right-section img{
+        width: 100px;
+        height: 100px; 
+        justify-content: center;
+    }
+
+
+}
